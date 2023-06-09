@@ -1,5 +1,20 @@
+
+
+
+
+
+
+
+
+
+
+
 function mrRobo(number) {
-  if number.includes 
-  return "Beep!";
-}
+  if (number.includes(1)) {
+    return "Beep!";
+  }
+};
+
+
+
 
