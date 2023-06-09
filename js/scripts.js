@@ -1,3 +1,6 @@
+//Business logic
+
+const enteredNumber = [];
 
 
 
@@ -8,13 +11,11 @@
 
 
 
+//UI logic
 
-function mrRobo(number) {
-  if (number.includes(1)) {
-    return "Beep!";
+window.onload = function () {
+  document.querySelector("button").onclick = function (getResults) {
+    const inputNumber = document.getElementById("number");
+
   }
-};
-
-
-
-
+}; 
