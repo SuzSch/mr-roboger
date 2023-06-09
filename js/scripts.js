@@ -1,4 +1,14 @@
-//Business logic
+//UI logic:
+
+function handleClick() {
+  const inputNumber = document.getElementById("inputNumber").value;
+  const result = mrRobo(inputNumber);
+  const resultDiv = document.getElementById("result");
+  resultDiv.innerHTML = "Result: " + result.join(", ");
+}
+
+
+//Business logic:
 
 function mrRobo(inputNumber) {
   const result = [];
@@ -16,32 +26,3 @@ function mrRobo(inputNumber) {
   return result;
 };
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//UI logic
-
-window.onload = function () {
-  document.querySelector("button").onclick = function (getResults) {
-    const inputNumber = document.getElementById("number").value;
-    console.log
-  }
-}; 
