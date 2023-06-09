@@ -3,10 +3,16 @@
 function mrRobo(inputNumber) {
   const result = [];
   for (let i = 0; i <= inputNumber; i + 1) {
-    result.push(i);
+    if (i.toString().includes('1')) {
+      result.push('beep!');
+    } else {
+      result.push(i);
+    }
   }
   return result;
+  console.log
 };
+
 
 
 
