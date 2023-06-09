@@ -1,8 +1,7 @@
 Describe: mrRobo()
 
-Test: "It should return 'Beep!' if number contains a 1"
+Test: "It should return a list of values from 0 to the inputted number"
 Code:
-const enteredNumber = "1734";
-mrRobo(enteredNumbert);
-Expected Output: "Beep!"
-
+const inputNumber = "6";
+mrRobo(enteredNumber);
+Expected Output: [0, 1, 2, 3, 4, 5, 6]

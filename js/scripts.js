@@ -1,6 +1,31 @@
 //Business logic
 
-const enteredNumber = [];
+function mrRobo(inputNumber) {
+  const result = [];
+  for (let i = 0; i <= inputNumber; i + 1) {
+    result.push(i);
+  }
+  return result;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -15,7 +40,7 @@ const enteredNumber = [];
 
 window.onload = function () {
   document.querySelector("button").onclick = function (getResults) {
-    const inputNumber = document.getElementById("number");
-
+    const inputNumber = document.getElementById("number").value;
+    console.log
   }
 }; 
