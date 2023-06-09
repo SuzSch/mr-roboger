@@ -1,15 +1,20 @@
 //UI logic:
+
 window.onload = function () {
   document.querySelector("button").addEventListener("click", handleClick);
 };
 
 function handleClick() {
   const inputNumber = document.getElementById("inputNumber").value;
+  if (inputNumber < 0) {
+    const resultDiv = document.getElementById("result");
+    resultDiv.innerHTML = "Error: Please enter a non-negative number.";
+    return;
+  }
   const result = mrRobo(inputNumber);
   const resultDiv = document.getElementById("result");
   resultDiv.innerHTML = result.join(", ");
 }
-
 
 //Business logic:
 
