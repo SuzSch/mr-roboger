@@ -2,16 +2,18 @@
 
 function mrRobo(inputNumber) {
   const result = [];
-  for (let i = 0; i <= inputNumber; i + 1) {
-    if (i.toString().includes('1')) {
-      result.push('beep!');
+  for (let i = 0; i <= inputNumber; i++) {
+    if (i.toString().includes('3')) {
+      result.push("Won't you be my neighbor");
     } else {
       result.push(i);
     }
   }
   return result;
-  console.log
 };
+
+
+
 
 
 
