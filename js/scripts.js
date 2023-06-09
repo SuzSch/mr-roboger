@@ -1,10 +1,13 @@
 //UI logic:
+window.onload = function () {
+  document.querySelector("button").addEventListener("click", handleClick);
+};
 
 function handleClick() {
   const inputNumber = document.getElementById("inputNumber").value;
   const result = mrRobo(inputNumber);
   const resultDiv = document.getElementById("result");
-  resultDiv.innerHTML = "Result: " + result.join(", ");
+  resultDiv.innerHTML = result.join(", ");
 }
 
 
