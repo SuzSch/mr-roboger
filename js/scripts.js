@@ -8,7 +8,7 @@ function handleClick() {
   const inputNumber = document.getElementById("inputNumber").value;
   if (inputNumber < 0) {
     const resultDiv = document.getElementById("result");
-    resultDiv.innerHTML = "Error: Please enter a non-negative number.";
+    resultDiv.innerHTML = "Error! bleep Error! Please enter a non-negative number.";
     return;
   }
   const result = mrRobo(inputNumber);
