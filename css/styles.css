@@ -9,6 +9,27 @@ h1 {
   border: 20px double rgb(9, 47, 120);
   font-family: Tahoma;
   font-size: 45px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
-p {}
+p {
+
+  font-family: Tahoma;
+  font-size: 25px;
+  background-color: rgba(122, 3, 3, 0.668);
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 20px;
+  border: 20px double rgb(9, 47, 120);
+
+}
+
+.robo {
+  font-family: monospace;
+  font-size: 25px;
+  color: rgb(188, 119, 0);
+  background-color: black;
+  padding: 40px;
+  border: 20px double rgb(219, 213, 213);
+}

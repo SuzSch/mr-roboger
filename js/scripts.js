@@ -6,9 +6,10 @@ window.onload = function () {
 
 function handleClick() {
   const inputNumber = document.getElementById("inputNumber").value;
+  //const name
   if (inputNumber < 0) {
     const resultDiv = document.getElementById("result");
-    resultDiv.innerHTML = "Error! bleep Error! Please enter a non-negative number.";
+    resultDiv.innerHTML = "Error! :bleep: Error! Please enter a non-negative number.";
     return;
   }
   const result = mrRobo(inputNumber);
@@ -22,7 +23,7 @@ function mrRobo(inputNumber) {
   const result = [];
   for (let i = 0; i <= inputNumber; i++) {
     if (i.toString().includes('3')) {
-      result.push("Won't you be my neighbor?");
+      //result.push("Won't you be my neighbor?" + );
     } else if (i.toString().includes('2')) {
       result.push("Boop!");
     } else if (i.toString().includes('1')) {
