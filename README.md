@@ -1,6 +1,6 @@
-![Mr. Rogers holding a remote control while knealing beside a robot.](img/mr-roboger.jpeg)
+![Mr. Rogers in a red sweater and blue jeans holding a remote control while knealing beside a robot.](img/mr-roboger.jpeg)
 
-# [Mr. Roboger's Neighborhood]()
+# [Mr. Roboger's Neighborhood](https://suzsch.github.io/mr-roboger/)
 
 ### By Suzanne Schuber
 
@@ -51,10 +51,6 @@ Code:
 mrRobo(inputNumber);
 inputNumber = 13;
 Expected Output: [0, "Beep!" "Boop!", "Won't you be my neighbor!", 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!", "Won't you be my neighbor!"]
-
-
-
-
 
 ## Known Bugs
 
